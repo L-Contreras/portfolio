@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    height: 5rem;
+    background-color: #003366;
+
+}
+
+nav a{
+    color: white;
+}
+
+.brand-name {
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+}
+
+.right li {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+
+/* ABOUT SECTION */
+
+#about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    margin: 0 auto;
+    gap: 50px;
+    background-color: white;
+}
+
+#about-picture-container {
+    height: 500px;
+    width: 500px;
+}
+
+#about-picture-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#experience-text {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+/* projects section */
+
+#projects-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2.75rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2rem;
+}
+
+.project-portrait {
+    height: 200px;
+    width: 200px;
+}
+
+.project-portrait img {
+    height: 100%;
+    width: 100%;
+}
+
+/* skills section */
+#skills-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 30vh;   
+}
+
+#skills-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2.75rem;
+}
+
+#skills-section i {
+    font-size: 3rem;
+    color: lightblue;
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin: 1rem 0;
+}
+
+#skills-section i:hover {
+    transform: scale(1.2);
+    color: lightgreen;
+}
+
+/* certificate section */
+
+#certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 50vh;
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+#certificate h2 {
+    margin-bottom: 1rem;
+    font-size: 2.75rem;
+}
+
+.certificate-portrait {
+    height: 200px;
+    width: 300px;
+}
+
+.certificate-portrait img {
+    height: 100%;
+    width: 100%;
+}
+
+/* footer section */
+footer {
+    background-color: #909090;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.875rem;
+}
